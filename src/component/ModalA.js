@@ -1,8 +1,6 @@
 import React, {Component} from 'react';
-import {
-    Button,
-    Modal,
-} from 'react-bootstrap'
+import {Button, Modal,} from 'react-bootstrap';
+import PropTypes from 'prop-types';
 
 
 class ModalA extends Component {
@@ -21,8 +19,7 @@ class ModalA extends Component {
 
 
     handleClose() {
-        this.setState({show: false});
-        this.state.toggleModal();
+        this.state.closeModalFn();
     }
 
 
@@ -31,10 +28,10 @@ class ModalA extends Component {
         return (
             <>
                 <Modal show={this.state.isShowModalFn()} onHide={this.state.closeModalFn}>
-                    <Modal.Header>
+                    <Modal.Header closeButton={true}>
                         <Modal.Title>Modal A</Modal.Title>
                     </Modal.Header>
-                    <Modal.Body>This text rendered in a modal.</Modal.Body>
+                    <Modal.Body>This text rendered in a class-based modal.</Modal.Body>
                     <Modal.Footer>
                         <Button variant="secondary" onClick={this.state.closeModalFn}>Close</Button>
                         <Button variant="primary" onClick={this.state.closeModalFn}>Save Changes</Button>
@@ -44,5 +41,10 @@ class ModalA extends Component {
         );
     }
 }
+
+ModalA.propTypes = {
+    closeModalFn: PropTypes.func.isRequired,
+    isShowModalFn: PropTypes.func.isRequired,
+};
 
 export default ModalA;
