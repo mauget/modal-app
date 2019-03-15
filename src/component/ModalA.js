@@ -10,13 +10,12 @@ class ModalA extends Component {
     constructor(props) {
         super(props);
 
-        console.log(`ModelA props`, props);
-
         this.handleClose = this.handleClose.bind(this);
 
+        const {isShowModalFn, closeModalFn} = props;
         this.state = {
-            closeModalFn: props.closeModalFn,
-            isShowModalFn: props.isShowModalFn
+            closeModalFn: closeModalFn,
+            isShowModalFn: isShowModalFn
         };
     }
 
@@ -28,8 +27,6 @@ class ModalA extends Component {
 
 
     render() {
-
-        console.log('ModelA.render()', this.state);
 
         return (
             <>

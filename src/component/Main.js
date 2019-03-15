@@ -21,12 +21,12 @@ class Main extends Component {
         };
 
         this.isShowModalA = this.isShowModalA.bind(this);
-
         this.showModalA = this.showModalA.bind(this);
+        this.closeModalA = this.closeModalA.bind(this);
+
         this.showModalB = this.showModalB.bind(this);
         this.showModalC = this.showModalC.bind(this);
 
-        this.closeModalA = this.closeModalA.bind(this);
     }
 
 
@@ -57,8 +57,6 @@ class Main extends Component {
 
 
     render() {
-
-        console.log(`showA is ${this.state.showA}`);
 
         return (
             <>
