@@ -1,14 +1,13 @@
 import React from 'react';
 import {Button, Modal} from 'react-bootstrap'
 
-const ModalB = ({title, fnIsShowModal, fnCloseModal, children, labelCancel, labelOK}) =>
+const ModalFunc = ({title, fnIsShowModal, fnCloseModal, children, labelCancel, labelOK}) =>
     <Modal show={fnIsShowModal()} onHide={fnCloseModal}>
         <Modal.Header closeButton={true}>
             <Modal.Title>{title || 'Modal B'}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-            This is a function-based component modal.
-            {children}
+            {children || 'This is a function-based component modal.'}
         </Modal.Body>
         <Modal.Footer>
             <Button variant="secondary" onClick={fnCloseModal}>{labelCancel || 'Cancel'}</Button>
@@ -17,4 +16,4 @@ const ModalB = ({title, fnIsShowModal, fnCloseModal, children, labelCancel, labe
     </Modal>
 ;
 
-export default ModalB;
+export default ModalFunc;

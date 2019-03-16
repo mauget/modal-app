@@ -3,7 +3,7 @@ import {Button, Modal} from 'react-bootstrap';
 import PropTypes from 'prop-types';
 
 
-class ModalA extends Component {
+class ModalClass extends Component {
 
     constructor(props) {
         super(props);
@@ -27,8 +27,7 @@ class ModalA extends Component {
                     <Modal.Title>{this.state.title}</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    This is a class-based component modal.
-                    {this.props.children}
+                    {this.props.children || 'This is a class-based component modal.'}
                 </Modal.Body>
                 <Modal.Footer>
                     <Button variant="secondary" onClick={this.state.fnCloseModal}>{this.state.labelCancel || 'Cancel'}</Button>
@@ -39,10 +38,10 @@ class ModalA extends Component {
     }
 }
 
-ModalA.propTypes = {
+ModalClass.propTypes = {
     title: PropTypes.string,
     fnIsShowModal: PropTypes.func.isRequired,
     fnCloseModal: PropTypes.func.isRequired
 };
 
-export default ModalA;
+export default ModalClass;

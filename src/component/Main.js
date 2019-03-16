@@ -5,8 +5,8 @@ import {
     Row,
     Col
 } from 'react-bootstrap'
-import ModalA from './ModalA';
-import ModalB from './ModalB';
+import ModalClass from './ModalClass';
+import ModalFunc from './ModalFunc';
 
 class Main extends Component {
 
@@ -115,11 +115,11 @@ class Main extends Component {
                     </Card.Footer>
                 </Card>
 
-                <ModalA title={"Class Modal"} fnIsShowModal={this.isShowModalA} fnCloseModal={this.closeModalA}/>
+                <ModalClass title={"Class Modal"} fnIsShowModal={this.isShowModalA} fnCloseModal={this.closeModalA}/>
 
-                <ModalB title={"Func Modal"} fnIsShowModal={this.isShowModalB} fnCloseModal={this.closeModalB}/>
+                <ModalFunc title={"Func Modal"} fnIsShowModal={this.isShowModalB} fnCloseModal={this.closeModalB}/>
 
-                <ModalA title={"Class Modal 2"} fnIsShowModal={this.isShowModalC} fnCloseModal={this.closeModalC}>
+                <ModalClass title={"Class Modal Slotted"} fnIsShowModal={this.isShowModalC} fnCloseModal={this.closeModalC}>
                     <Row>
                         <Col md={{span: 9, offset: 3}}>
                             <ol>
@@ -129,9 +129,9 @@ class Main extends Component {
                             </ol>
                         </Col>
                     </Row>
-                </ModalA>
+                </ModalClass>
 
-                <ModalB title={"Func Modal 2"} fnIsShowModal={this.isShowModalD} fnCloseModal={this.closeModalD}>
+                <ModalFunc title={"Func Modal Slotted"} fnIsShowModal={this.isShowModalD} fnCloseModal={this.closeModalD}>
                     <Row>
                         <Col md={{span: 9, offset: 3}}>
                             <table>
@@ -162,7 +162,7 @@ class Main extends Component {
                             </table>
                         </Col>
                     </Row>
-                </ModalB>
+                </ModalFunc>
 
             </>
         );
