@@ -115,12 +115,11 @@ class Main extends Component {
                     </Card.Footer>
                 </Card>
 
-                <ModalA fnIsShowModal={this.isShowModalA} fnCloseModal={this.closeModalA}/>
+                <ModalA title={"Class Modal"} fnIsShowModal={this.isShowModalA} fnCloseModal={this.closeModalA}/>
 
-                <ModalB fnIsShowModal={this.isShowModalB} fnCloseModal={this.closeModalB}/>
+                <ModalB title={"Func Modal"} fnIsShowModal={this.isShowModalB} fnCloseModal={this.closeModalB}/>
 
-                <ModalA fnIsShowModal={this.isShowModalC} fnCloseModal={this.closeModalC}>
-                    <br/>
+                <ModalA title={"Class Modal 2"} fnIsShowModal={this.isShowModalC} fnCloseModal={this.closeModalC}>
                     <Row>
                         <Col md={{span: 9, offset: 3}}>
                             <ol>
@@ -132,8 +131,7 @@ class Main extends Component {
                     </Row>
                 </ModalA>
 
-                <ModalB fnIsShowModal={this.isShowModalD} fnCloseModal={this.closeModalD}>
-                    <br/>
+                <ModalB title={"Func Modal 2"} fnIsShowModal={this.isShowModalD} fnCloseModal={this.closeModalD}>
                     <Row>
                         <Col md={{span: 9, offset: 3}}>
                             <table>

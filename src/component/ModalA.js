@@ -8,27 +8,31 @@ class ModalA extends Component {
     constructor(props) {
         super(props);
 
-        const {fnIsShowModal, fnCloseModal} = props;
+        const {title, fnIsShowModal, fnCloseModal, labelOK, labelCancel} = props;
         this.state = {
+            title: title || 'Class Modal',
             fnIsShowModal: fnIsShowModal,
-            fnCloseModal: fnCloseModal
+            fnCloseModal: fnCloseModal,
+            labelOK: labelOK,
+            labelCancel: labelCancel
         };
     }
 
 
     render() {
+        console.log(`ModalA props.children`, this.props.children);
         return (
             <Modal show={this.state.fnIsShowModal()} onHide={this.state.fnCloseModal}>
                 <Modal.Header closeButton={true}>
-                    <Modal.Title>Modal A</Modal.Title>
+                    <Modal.Title>{this.state.title}</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    This is a class-based modal.
+                    This is a class-based component modal.
                     {this.props.children}
                 </Modal.Body>
                 <Modal.Footer>
-                    <Button variant="secondary" onClick={this.state.fnCloseModal}>Close</Button>
-                    <Button variant="primary" onClick={this.state.fnCloseModal}>OK</Button>
+                    <Button variant="secondary" onClick={this.state.fnCloseModal}>{this.state.labelCancel || 'Cancel'}</Button>
+                    <Button variant="primary" onClick={this.state.fnCloseModal}>{this.state.labelOK || 'OK'}</Button>
                 </Modal.Footer>
             </Modal>
         );
@@ -36,6 +40,7 @@ class ModalA extends Component {
 }
 
 ModalA.propTypes = {
+    title: PropTypes.string,
     fnIsShowModal: PropTypes.func.isRequired,
     fnCloseModal: PropTypes.func.isRequired
 };
