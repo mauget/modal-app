@@ -3,7 +3,6 @@
 }
 
 .App-header {
-  /*background-color: #282c34;*/
   background-color: lightslategray;
   min-height: 100vh;
   display: flex;
@@ -18,3 +17,10 @@
   color: #61dafb;
 }
 
+Button {
+  margin: 0.2rem;
+}
+
+.main-card {
+  min-width: 40%;
+}
