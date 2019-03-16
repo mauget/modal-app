@@ -103,11 +103,11 @@ class Main extends Component {
                     <Card.Body>
                         <Row>
                             <Col><Button onClick={this.showModalA} autoFocus={true}>Modal A</Button></Col>
-                            <Col><Button onClick={this.showModalC}>Modal C</Button></Col>
+                            <Col><Button onClick={this.showModalC}>Modal A2</Button></Col>
                         </Row>
                         <Row>
                             <Col><Button onClick={this.showModalB}>Modal B</Button></Col>
-                            <Col><Button onClick={this.showModalD}>Modal D</Button></Col>
+                            <Col><Button onClick={this.showModalD}>Modal B2</Button></Col>
                         </Row>
                     </Card.Body>
                     <Card.Footer>
@@ -120,40 +120,50 @@ class Main extends Component {
                 <ModalB fnIsShowModal={this.isShowModalB} fnCloseModal={this.closeModalB}/>
 
                 <ModalA fnIsShowModal={this.isShowModalC} fnCloseModal={this.closeModalC}>
-                    <ol>
-                        <li>One</li>
-                        <li>Two</li>
-                        <li>Three</li>
-                    </ol>
+                    <br/>
+                    <Row>
+                        <Col md={{span: 9, offset: 3}}>
+                            <ol>
+                                <li>One</li>
+                                <li>Two</li>
+                                <li>Three</li>
+                            </ol>
+                        </Col>
+                    </Row>
                 </ModalA>
 
                 <ModalB fnIsShowModal={this.isShowModalD} fnCloseModal={this.closeModalD}>
-                    <table>
-                        <thead>
-                        <tr>
-                            <th>Key</th>
-                            <th>Value</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td>Name</td>
-                            <td>Lou Mauget</td>
-                        </tr>
-                        <tr>
-                            <td>City</td>
-                            <td>East Lansing</td>
-                        </tr>
-                        <tr>
-                            <td>State</td>
-                            <td>MI</td>
-                        </tr>
-                        <tr>
-                            <td>Zip</td>
-                            <td>48024</td>
-                        </tr>
-                        </tbody>
-                    </table>
+                    <br/>
+                    <Row>
+                        <Col md={{span: 9, offset: 3}}>
+                            <table>
+                                <thead>
+                                <tr>
+                                    <th>Key</th>
+                                    <th>Value</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Lou Mauget</td>
+                                </tr>
+                                <tr>
+                                    <td>City</td>
+                                    <td>East Lansing</td>
+                                </tr>
+                                <tr>
+                                    <td>State</td>
+                                    <td>MI</td>
+                                </tr>
+                                <tr>
+                                    <td>Zip</td>
+                                    <td>48824</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </Col>
+                    </Row>
                 </ModalB>
 
             </>
