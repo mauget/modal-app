@@ -4,13 +4,8 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c44ee10-b3ae-4c0f-98a5-70a86866c918" name="Default Changelist" comment="Updated modules">
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/ErrorBoundary.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ErrorBoundary.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/ModalFunc.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ModalFunc.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.jsx" afterDir="false" />
+    <list default="true" id="6c44ee10-b3ae-4c0f-98a5-70a86866c918" name="Default Changelist" comment="Rename js to jsx where appropriate">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,14 +111,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="C:\Users\mauget\WebstormProjects\modal-app\node_modules\eslint" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="C:\Program Files (x86)\Yarn" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Node.js.spread.js">
@@ -175,7 +173,8 @@
       <workItem from="1610846902638" duration="1425000" />
       <workItem from="1610848459379" duration="285000" />
       <workItem from="1610848783421" duration="384000" />
-      <workItem from="1610849513710" duration="1588000" />
+      <workItem from="1610849513710" duration="1806000" />
+      <workItem from="1610888057409" duration="258000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1552682708762</created>
@@ -233,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610850717778</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Rename js to jsx where appropriate">
+      <created>1610851325708</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1610851325708</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -277,6 +283,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
@@ -287,7 +294,12 @@
     <MESSAGE value="Modal button labels are now optional props" />
     <MESSAGE value="Renamed the two base modals" />
     <MESSAGE value="Updated modules" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated modules" />
+    <MESSAGE value="Rename js to jsx where appropriate" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rename js to jsx where appropriate" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/public/favicon.ico">
