@@ -6,11 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6c44ee10-b3ae-4c0f-98a5-70a86866c918" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,9 +17,6 @@
   <component name="ElmWorkspace">
     <elmProjects />
     <settings elmCompilerPath="" elmFormatPath="" elmTestPath="" isElmFormatOnSaveEnabled="false" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -108,30 +103,24 @@
       </pane>
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="node.js.selected.package.eslint" value="C:\Users\mauget\WebstormProjects\modal-app\node_modules\eslint" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="nodejs_package_manager_path" value="C:\Program Files (x86)\Yarn" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Node.js.spread.js">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -167,6 +156,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -178,6 +168,10 @@
       <option name="presentableId" value="Default" />
       <updated>1552659254510</updated>
       <workItem from="1552659255884" duration="32994000" />
+      <workItem from="1610846902638" duration="1425000" />
+      <workItem from="1610848459379" duration="285000" />
+      <workItem from="1610848783421" duration="384000" />
+      <workItem from="1610849513710" duration="1158000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1552682708762</created>
@@ -260,7 +254,7 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
@@ -271,28 +265,6 @@
     <MESSAGE value="Modal button labels are now optional props" />
     <MESSAGE value="Renamed the two base modals" />
     <option name="LAST_COMMIT_MESSAGE" value="Renamed the two base modals" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="557" y="253" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1584197482576">
-      <screen x="54" y="23" width="1626" height="1027" />
-    </state>
-    <state x="557" y="253" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/54.23.1626.1027@54.23.1626.1027" timestamp="1584197482576" />
-    <state width="1575" height="202" key="GridCell.Tab.0.bottom" timestamp="1584197604556">
-      <screen x="54" y="23" width="1626" height="1027" />
-    </state>
-    <state width="1575" height="202" key="GridCell.Tab.0.bottom/54.23.1626.1027@54.23.1626.1027" timestamp="1584197604556" />
-    <state width="1575" height="202" key="GridCell.Tab.0.center" timestamp="1584197604555">
-      <screen x="54" y="23" width="1626" height="1027" />
-    </state>
-    <state width="1575" height="202" key="GridCell.Tab.0.center/54.23.1626.1027@54.23.1626.1027" timestamp="1584197604555" />
-    <state width="1575" height="202" key="GridCell.Tab.0.left" timestamp="1584197604554">
-      <screen x="54" y="23" width="1626" height="1027" />
-    </state>
-    <state width="1575" height="202" key="GridCell.Tab.0.left/54.23.1626.1027@54.23.1626.1027" timestamp="1584197604554" />
-    <state width="1575" height="202" key="GridCell.Tab.0.right" timestamp="1584197604556">
-      <screen x="54" y="23" width="1626" height="1027" />
-    </state>
-    <state width="1575" height="202" key="GridCell.Tab.0.right/54.23.1626.1027@54.23.1626.1027" timestamp="1584197604556" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/public/favicon.ico">
