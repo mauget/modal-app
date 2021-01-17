@@ -111,7 +111,7 @@ class Main extends Component {
                         </Row>
                     </Card.Body>
                     <Card.Footer>
-                        <h5>Copyright - &copy; 2019</h5>
+                        <h5>Copyright - &copy; 2019, 2020</h5>
                     </Card.Footer>
                 </Card>
 
