@@ -4,9 +4,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c44ee10-b3ae-4c0f-98a5-70a86866c918" name="Default Changelist" comment="Rename js to jsx where appropriate">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6c44ee10-b3ae-4c0f-98a5-70a86866c918" name="Default Changelist" comment="Rename js to jsx where appropriate" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -178,6 +176,7 @@
       <workItem from="1610936320126" duration="304000" />
       <workItem from="1610936805632" duration="67000" />
       <workItem from="1610937784735" duration="106000" />
+      <workItem from="1611362613786" duration="664000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1552682708762</created>
